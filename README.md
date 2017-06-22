@@ -19,10 +19,16 @@ Step 2: create an environment to work on and activate it. Open command prompt an
         conda create --name work 
         activate work 
  
-Step 3: Now install ffmpeg, OpenCV and Moviepy libraries in your working environment. 
+Step 3: Now install ffmpeg, OpenCV and Moviepy libraries in your working environment. Type these commands one by one on command prompt
         conda install -c conda-forge ffmpeg=3.2.4 
         conda install -c conda-forge opencv=3.2.0 
         pip install moviepy (if this does not work try->  sudo pip install moviepy) 
  
-Now you are all set to run the code. Just specify path of input video, output path, text to write and font size in addTextBannerToVideo.py file and your output will be generated. 
- 
+Step 4: Copy all the files and code to your system. Go to the directory in command prompt, where you want this code to be saved and then run these commands 
+	conda install git	
+	git clone https://github.com/MayankSharma-MS/Add-text-banner-to-video.git
+
+Now you are all set to run the code. Type this command on cmd prompt
+	python addTextBannerToVideo.py
+
+You can use your own input videos, text, font size and watermark by changing values in addTextBannerToVideo.py file.
